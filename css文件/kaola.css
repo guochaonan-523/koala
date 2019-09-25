@@ -1,0 +1,1063 @@
+		*{
+			margin: 0 ;/*auto*/
+			padding: 0;
+		}
+		hr{
+			margin: 0;
+			padding: 0;
+			border: none;
+			border-top: 1px solid #ff728f;
+			height: 1px;
+			width: 95%;
+			text-align: center;
+		}
+		/*顶部nav*/
+		#topTabPlaceHolder{
+			height: 31px;
+			background-color: black;
+		}
+		/*搜索部分*/
+		#docHead{
+			/*width: 1345px;*/
+			height: 100px;
+			/*background-color: green;*/
+		}
+		/*分类nav*/
+		#topTabBox{
+			height: 40px;
+			/*background-color: yellow;*/
+		}
+		/*轮播图*/
+		#rotation{
+			/*height: 505px;*/
+			/*background-color: blue;*/
+			z-index: -100;
+		}
+		/*轮播图以下*/
+		#other{
+			/*height: 1000px;*/
+			background-color: #f6f6f6;
+		}
+		/*四大会场*/
+		#m{
+			height: 332px;
+			/*background-color: coral;*/
+		}
+
+
+
+		/*轮播图设置*/
+		#rotation .img-box{
+			width: 1090px;
+			/*height: 505px;*/
+			/*background-color: pink;*/
+			margin: auto;
+			z-index: -100;
+			/*overflow: hidden;*/
+		}
+		/*轮播图内sellpoint*/
+		#rotation .img-box #rotation-img{
+			position: relative;
+			left: -415px;
+			top:0px;
+			z-index: -10;
+		}
+		#rotation .sellpoint{
+			background-color: rgba(0,0,0,0.3);
+			position: relative;
+			top: -33px;
+		}
+		#rotation .sellpoint>div{
+			width: 1090px;
+			margin:0 auto;
+			position: relative;
+		}
+		#rotation .sellpoint .sell-left{
+			height: 30px;
+			display: inline-block;
+		}
+		#rotation .sellpoint a{
+			text-decoration: none;
+			color: white;
+			line-height: 30px;
+			margin-right: 30px;
+			font-size: 13px;
+		}
+		#rotation .sellpoint  a span{
+			color: white;
+		}
+		#rotation .sellpoint .sell-right{
+			width: 262px;
+			display: inline-block;
+			position: absolute;
+			right: 0px;
+		}
+
+
+
+		/*顶部nav内套的一个div*/
+		.top-nav{
+			width:1090px;
+			padding: 0 auto;
+			margin: 0 auto;
+			line-height: 31px;
+		}
+		/*顶部nav的字体颜色设置*/
+		.top-nav span,.top-nav a,span{
+			color: #999999;
+			text-decoration: none;
+			font-size: 13px;
+		}
+		/*a标签悬停*/
+		.top-nav a:hover{
+			color: white;
+		}
+		.top-nav>*{
+			display: inline;
+		}
+		.top-nav .phone-kaola{
+			margin-left: 30px;
+		}
+		.top-nav .foot-nav{
+			margin: 0;
+			float: right;
+		}
+		/*顶部nav右侧列表设置*/
+		.top-nav .foot-nav li{
+			padding: 0 10px;
+			display: inline-block;
+		}
+
+
+
+		/*个人中心*/
+		.top-nav .foot-nav .list1{
+			position: relative;
+		}
+		.top-nav .foot-nav .list1 .personal{
+			width: 82px;
+			height: 272px;
+			padding: 2px 10px 8px 14px;
+			border-left:1px solid #ebebeb; 
+			border-right:1px solid #ebebeb; 
+			border-bottom:1px solid #ebebeb; 
+			background-color: white;
+			position: absolute;	
+			left: 0px;
+			top:31px;
+			z-index: 10;
+			display: none;
+		}
+		.top-nav .foot-nav .list1 .personal li{
+			padding: 0;
+			height: 20px;
+		}
+		.top-nav .foot-nav .list1 .personal a{
+			height: 18px;
+			font-size: 12px;
+		}
+		.top-nav .foot-nav .list1:hover{
+			background-color: white;
+		}
+		.top-nav .foot-nav .list1 .personal-center:hover{
+			color: #ff0203;
+		}
+		.top-nav .foot-nav .list1:hover .personal{
+			display: block;
+		}
+		.top-nav .foot-nav .list1 .personal a:hover{
+			color: #ff0203;
+		}
+
+
+
+
+
+		/*搜索部分内套div设置*/
+		.logo-search{
+			width: 1090px;
+			padding: 0 auto;
+			margin: 0 auto;
+			position: relative;
+		}
+		/*考拉logo*/
+		.logo-search img{
+			margin: 20px 10px 10px 0;
+		}
+		/*搜索框*/
+		.logo-search .search{
+			display: inline-block;
+			height: 70px; 
+			width: 530px;
+			position: absolute;
+			top: 20px;
+		}
+		.logo-search .search .searchbox-outer{
+			width: 511px;
+			height: 40px;
+			border: 2px solid #ff0d1f;
+			border-radius: 40px; 
+		}
+		.logo-search .search .searchbox-outer>img{
+			margin: 12px 8px;
+		}
+		/*搜索内框*/
+		.logo-search .search .searchbox-inner {
+			width: 390px;
+			height: 24px;
+			border: 0;
+			padding: 0 10px;
+			position: absolute;
+			left: 37px;
+			top: 10px;
+		}
+		/*搜索提交按钮*/
+		.logo-search .search .searchbox-outer .submit{
+			width: 60px;
+			height: 43px;
+			border: 0;
+			border-radius: 40px;
+			position: absolute;
+			top: 0px;
+			right: 17px;
+			background:linear-gradient(to right,#ff0203,#ff3263);
+		}
+		.logo-search .search .searchbox-outer span img{
+			width: 30px;
+			height: 30px;
+			position:absolute;
+			right: 5px;
+			top: -12px;
+		}
+		/*搜索提示*/
+		.search-after .search-list{
+			text-align: center;
+		}
+		.search-after .search-list li{
+			padding: 0 8px;
+			display: inline;
+		}
+		.search-after .search-list a{
+			text-decoration: none;
+			color: #999999;
+			font-size: 12px;
+		}
+		/*购物车*/
+		.logo-search .shopping-cart{
+			width: 110px;
+			height: 40px;
+			border: 2px solid red;
+			border-radius: 40px;
+			position: absolute;
+			left: 570px;
+			top: 0px;
+		}
+		.logo-search .shopping-cart img{
+			position: absolute;
+			left: 9px;
+			top: -12px;
+		}
+		.logo-search .shopping-cart span{
+			display: inline;
+			width: 48px;
+			height: 36px;
+			padding: 0 0 0 6px;
+			position: absolute;
+			left: 35px;
+			top: 2px;
+			line-height: 36px;
+			text-decoration: none;
+			color: black;
+		}
+		.logo-search .shopping-cart span:hover{
+			color: #ff1932;
+		}
+
+				
+
+
+
+		/*分类导航部分*/
+		.topTabBox-inner{
+			width: 1090px;
+			padding: 0 auto;
+			margin: 0 auto;
+		}
+		/*所有分类框*/
+		.topTabBox-inner .all-categories{
+			display: inline-block;
+			width: 164px;
+			height: 41px;
+			border: 0;
+			background:linear-gradient(to right,#ff0203,#ff3263);
+			line-height: 40px;
+		}
+		.topTabBox-inner .all-categories .all-categories-logo{
+			display: inline-block;
+			margin: 0 17px;
+		}
+		.topTabBox-inner .all-categories .all-categories-logo i{
+			width: 15px;
+			height: 0px;
+			border: 1px solid #ddd;
+			display: block;
+			margin-top: 3px;
+		}
+		.topTabBox-inner .all-categories span{
+			color: white;
+			line-height: 40px;
+			text-align: left;
+			font-size: 14px;			
+		}
+
+
+
+
+
+		/*内容区导航*/
+		.topTabBox-inner .nav-list{
+			margin: 0 20px 0 0;
+			float: right;
+			line-height: 40px;
+		}
+		.topTabBox-inner .nav-list li{
+			margin: 0 20px;
+			display: inline;
+		}
+		.topTabBox-inner .nav-list a{
+			text-decoration: none;
+			color: #333;
+			font-size: 15px;
+			font-weight: bold;
+		}
+		.topTabBox-inner .nav-list a:hover{
+			color: #ff1e32;
+		}
+
+
+
+
+
+
+
+		/*左侧分类导航栏*/
+		.topTabBox-inner .all-categories .classify-list{
+			margin: 0;
+			padding: 0;
+			list-style-type: none;
+			background:linear-gradient(to right,#ff0203,#ff3263);
+			/*float: left;*/
+			z-index: 1;
+		}
+		.topTabBox-inner .all-categories .classify-list li{
+			text-align: center;
+			border:1px;
+			position: relative;
+		}
+		.topTabBox-inner .all-categories .classify-list span{
+			color: white;
+			font-size: 14px;
+		}
+		.topTabBox-inner .all-categories .classify-list li:hover{
+			background-color: white;
+		}
+		.topTabBox-inner .all-categories .classify-list li:hover span{
+			color: #ff1e32;
+			/*clear: both;*/
+		}
+		.topTabBox-inner .all-categories .classify-list li .white{
+			float: left;
+			position: absolute;
+			left: 20px;
+			top:9px;
+			z-index: 1;
+		}
+		.topTabBox-inner .all-categories .classify-list li .red{
+			float: left;
+			position: absolute;
+			left: 20px;
+			top:9px;
+			z-index: 0;
+		}
+		.topTabBox-inner .all-categories .classify-list li .turn-right{
+			height: 21px;
+			float: right;
+			position: absolute;
+			right: 19px;
+			top: 10px;
+		}
+
+
+
+
+
+
+
+
+		/*美容彩妆盒子*/
+		/*盒子依靠分类导航栏中的美容彩妆左上角定位*/
+		.topTabBox-inner .all-categories .classify-list .beauty .beauty-box{
+			width: 930px;
+			height: 471px;
+			background-color: #ebebeb;
+			position:absolute;
+			left: 164px; 
+			top: 0;
+			border: 1px solid #ff0203;
+			display: none;
+		}
+		/*悬停显示*/
+		.topTabBox-inner .all-categories .classify-list .beauty:hover .beauty-box{
+			display: block;
+		}
+		/*美容彩妆盒子详细分类*/
+		/*详细分类依靠美容彩妆盒子定位*/
+		.topTabBox-inner .all-categories .classify-list .beauty .beauty-box-inner1{
+			margin: 0;
+			padding: 0;
+			width: 646px;
+			height: 471px;
+			background-color: white;
+			position:absolute;
+			left: 0px;
+			top:0px;
+		}
+		/*大分类标题*/
+		.topTabBox-inner .all-categories .classify-list .beauty .beauty-box p{
+			font-weight: bold;
+			height: 36px;
+		}
+		/*护肤*/
+		.topTabBox-inner .all-categories .classify-list .beauty .beauty-box .box-up-left{
+			margin-left:10px;
+			display: inline-block;
+			text-align: left;
+		}
+		/*面膜*/
+		.topTabBox-inner .all-categories .classify-list .beauty .beauty-box .box-up-right{
+			display: inline-block;
+			float: right;
+			text-align: left;
+		}
+		/*彩妆*/
+		.topTabBox-inner .all-categories .classify-list .beauty .beauty-box .box-down-left{
+			margin-left: 10px;
+			display: inline-block;
+			text-align: left;
+		}
+		/*防晒修复*/
+		.topTabBox-inner .all-categories .classify-list .beauty .beauty-box .box-down-right{
+			display: inline-block;
+			float: right;
+			text-align: left;
+		}
+		/*香水/香氛*/
+		.topTabBox-inner .all-categories .classify-list .beauty .beauty-box .box-bottom{
+			margin-left: 10px;
+			text-align: left;
+		}
+		/*a标签设置*/
+		.topTabBox-inner .all-categories .classify-list .beauty .beauty-box .beauty-box-inner1 div a{
+			text-decoration: none;
+			/*margin-top: 0px;*/
+			padding: 0 10px;
+			color: #999;
+			font-size: 14px;
+			white-space:nowrap; 
+			vertical-align:top;
+		}
+		/*美容彩妆盒子图片区*/
+		/*图片区依靠美容彩妆盒子定位*/
+		.topTabBox-inner .all-categories .classify-list .beauty .beauty-box-inner2{
+			width: 237px;
+			height: 331px;
+			padding: 9px 8px 0 13px;
+			background-color: #ebebeb;
+			position: absolute;
+			right: 0;
+			top: 0;
+		}
+		/*存放图片的a标签*/
+		.topTabBox-inner .all-categories .classify-list .beauty .beauty-box-inner2 a{
+			height: 0;
+			text-align: initial;
+			font-size: 0;
+		}
+		/*图片设置*/
+		.topTabBox-inner .all-categories .classify-list .beauty .beauty-box-inner2 a img{
+			width: 106px;
+			height: 106px;
+			margin: 0 7px 0 0;
+		}
+		/*第三、四、五、六张图片依靠图片区盒子定位*/
+		.topTabBox-inner .all-categories .classify-list .beauty .beauty-box-inner2>*:nth-child(3){
+			position: absolute;
+			left: 18px;
+			top: 122px;
+		}
+		.topTabBox-inner .all-categories .classify-list .beauty .beauty-box-inner2>*:nth-child(4){
+			position: absolute;
+			left: 131px;
+			top: 122px;
+		}
+		.topTabBox-inner .all-categories .classify-list .beauty .beauty-box-inner2>*:nth-child(5){
+			position: absolute;
+			left: 18px;
+			bottom: 106px;
+		}
+		.topTabBox-inner .all-categories .classify-list .beauty .beauty-box-inner2>*:nth-child(6){
+			position: absolute;
+			left: 131px;
+			bottom: 106px;
+		}
+		/*末尾盒子，依靠美容彩妆盒子定位*/
+		.topTabBox-inner .all-categories .classify-list .beauty .beauty-box-inner3{
+			position: absolute;
+			right: 12px;
+			bottom: 8px;
+		}
+
+
+
+		
+
+
+
+		/*母婴儿童盒子*/
+		/*盒子依靠分类导航栏中的母婴儿童左上角定位*/
+		.topTabBox-inner .all-categories .classify-list .child .child-box{
+			width: 930px;
+			height: 471px;
+			background-color: #ebebeb;
+			position:absolute;
+			left: 164px; 
+			top: -43px;
+			border: 1px solid #ff0203;
+			display: none;
+		}
+		/*悬停显示*/
+		.topTabBox-inner .all-categories .classify-list .child:hover .child-box{
+			display: block;
+		}
+		/*母婴儿童盒子详细分类*/
+		/*详细分类依靠母婴儿童盒子定位*/
+		.topTabBox-inner .all-categories .classify-list .child .child-box-inner1{
+			margin: 0;
+			padding: 0;
+			width: 646px;
+			height: 471px;
+			background-color: white;
+			position:absolute;
+			left: 0px;
+			top:0px;
+		}
+		/*大分类标题*/
+		.topTabBox-inner .all-categories .classify-list .child .child-box p{
+			font-weight: bold;
+			height: 36px;
+		}
+		/*护肤*/
+		.topTabBox-inner .all-categories .classify-list .child .child-box .box-up-left{
+			margin-left:10px;
+			display: inline-block;
+			text-align: left;
+		}
+		/*面膜*/
+		.topTabBox-inner .all-categories .classify-list .child .child-box .box-up-right{
+			display: inline-block;
+			float: right;
+			text-align: left;
+		}
+		/*彩妆*/
+		.topTabBox-inner .all-categories .classify-list .child .child-box .box-down-left{
+			margin-left: 10px;
+			display: inline-block;
+			text-align: left;
+		}
+		/*防晒修复*/
+		.topTabBox-inner .all-categories .classify-list .child .child-box .box-down-right{
+			display: inline-block;
+			float: right;
+			text-align: left;
+		}
+		/*香水/香氛*/
+		.topTabBox-inner .all-categories .classify-list .child .child-box .box-bottom{
+			margin-left: 10px;
+			text-align: left;
+		}
+		/*a标签设置*/
+		.topTabBox-inner .all-categories .classify-list .child .child-box .child-box-inner1 div a{
+			text-decoration: none;
+			/*margin-top: 0px;*/
+			padding: 0 10px;
+			color: #999;
+			font-size: 14px;
+			white-space:nowrap; 
+			vertical-align:top;
+		}
+		/*母婴儿童盒子图片区*/
+		/*图片区依靠母婴儿童盒子定位*/
+		.topTabBox-inner .all-categories .classify-list .child .child-box-inner2{
+			width: 237px;
+			height: 331px;
+			padding: 9px 8px 0 13px;
+			background-color: #ebebeb;
+			position: absolute;
+			right: 0;
+			top: 0;
+		}
+		/*存放图片的a标签*/
+		.topTabBox-inner .all-categories .classify-list .child .child-box-inner2 a{
+			height: 0;
+			text-align: initial;
+			font-size: 0;
+		}
+		/*图片设置*/
+		.topTabBox-inner .all-categories .classify-list .child .child-box-inner2 a img{
+			width: 106px;
+			height: 106px;
+			margin: 0 7px 0 0;
+		}
+		/*第三、四、五、六张图片依靠图片区定位*/
+		.topTabBox-inner .all-categories .classify-list .child .child-box-inner2>*:nth-child(3){
+			position: absolute;
+			left: 18px;
+			top: 122px;
+		}
+		.topTabBox-inner .all-categories .classify-list .child .child-box-inner2>*:nth-child(4){
+			position: absolute;
+			left: 131px;
+			top: 122px;
+		}
+		.topTabBox-inner .all-categories .classify-list .child .child-box-inner2>*:nth-child(5){
+			position: absolute;
+			left: 18px;
+			bottom: 106px;
+		}
+		.topTabBox-inner .all-categories .classify-list .child .child-box-inner2>*:nth-child(6){
+			position: absolute;
+			left: 131px;
+			bottom: 106px;
+		}
+		/*末尾盒子，依靠母婴儿童盒子定位*/
+		.topTabBox-inner .all-categories .classify-list .child .child-box-inner3{
+			position: absolute;
+			right: 12px;
+			bottom: 8px;
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+		#m{
+			width: 1345px;
+			height: 6000px;
+			margin: 0 auto;
+			background-color: #f6f6f6;
+			/*float: center;*/
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		/*四大会场*/
+		#m .item{
+			width: 1090px;
+			/*height: 332px;*/
+			padding: 0 auto;
+			margin: 0 auto;
+			position: relative;
+			display: inline-block;
+			/*background-color: yellow;*/
+		}
+		#m .item a{
+			margin-right: 12px;
+		}
+
+		
+
+		
+		/*左侧固定导航*/
+		#other .sticky-left{
+			width: 100px;
+			/*height: 300px;*/
+			margin-left: 10px;
+			margin-right: 20px;
+			background-color: white;
+			float: left;
+			display: inline-block;
+		}
+		#other .sticky-left{
+			position: -webkit-sticky;
+			position: sticky;
+			left: 0px;
+			top: 0px;
+		}
+		#other .sticky-left img{
+			text-align: center;
+		}
+		#other .sticky-left ul li{
+			padding: 8px 0;
+			list-style-type: none;
+		}
+		#other .sticky-left li a{
+			padding: 8px 10px;
+			color: #999;
+			/*margin: 0 auto;*/
+			text-decoration: none;
+		}
+		#other .sticky-left .s-l-list1 li{
+			color: black;
+			border-right: 1px solid #f1f1f1;
+			border-bottom: 1px solid #f1f1f1;
+			border-left: 1px solid #f1f1f1;
+			font-weight: bold;
+			height: 30px;			
+		}
+		#other .sticky-left .s-l-list1 li{
+			border-left: 1px solid #f1f1f1;
+			border-right: 1px solid #f1f1f1;
+		}
+			
+
+		/*右侧固定导航*/
+		#other .sticky-right{
+			width: 62px;
+			margin-right: 40px;
+			background-color: white;
+			float: right;
+			display: inline-block;
+			
+		}
+		#other .sticky-right{
+			position: -webkit-sticky;
+			position: sticky;
+			right: 0px;
+			top: 0px;
+		}
+		#other .sticky-right ul li{
+			margin: 0px;
+			height: 48px;
+			padding: 10px 0;
+			border:1px solid #f1f1f1;
+			list-style-type: none;
+			/*background-color: white;*/
+			
+		}
+		#other .sticky-right .s-l-list2 li a{
+			text-decoration: none;
+		}
+		#other .sticky-right .s-l-list2 li a i{
+			margin:17px;
+			/*align:center;*/
+
+		}
+		#other .sticky-right .s-l-list2 li a span{
+			margin: 8px;
+			/*text-align:center;*/
+		}
+
+
+
+
+
+		/*限时抢购部分*/
+		#other #m .count-down{
+			border-top: 1px solid #f0f0f0;
+			padding-top: 10px;
+		}
+		#other #m .count-down i{
+			width: 40px;
+			height: 40px;
+			background-color: red;
+			color: white;
+			font-size: 30px;
+			font-weight: bold;
+			border-radius: 10px;
+		}
+		#other #m .count-down span span{
+			margin:5px;
+			color: black;
+			font-size: 30px;
+		}
+		#other #m .count-down a{
+			float: right;
+			margin-right: 140px;
+			text-decoration: none;
+			color: #999;
+			font-size: 13px;
+		}
+		
+		
+		
+		/*限时抢购盒子*/
+		#other #m .count-down-box{
+			/*display: inline-block;*/
+			width: 1090px;
+			height: 400px;
+			margin: 0 auto;
+		}
+		#other #m .count-down-box li{
+			display: inline-block;
+			width: 410px;
+			height: 190px;
+			list-style-type: none;
+		}
+		#other #m .count-down-box li div{
+			display: inline-block;
+			width: 205px;
+			height: 188px;
+			margin:0 27px 0 0;
+			position: absolute;
+			background-color: white;
+		}
+		/*c-d-b-1-1*/
+		#other #m .count-down-box .c-d-b-1-1 .a1{
+			display: inline-block;
+			width:124px;
+			height:21px;
+			font-size: 16px;
+			margin:11px 10px 6px 10px ;
+			font-weight: bold;
+			text-decoration: none;
+			color: black;
+		}
+		#other #m .count-down-box .c-d-b-1-1 .a2{
+			display: inline-block;
+			width:203px;
+			height:38px;
+			text-decoration: none;
+			/*display: inline;*/
+			overflow:hidden;
+			font-size:13px;
+			color:#999999;
+		}
+		#other #m .count-down-box .c-d-b-1-1 .a3{
+			display: inline-block;
+			width: 80px;
+			height: 36px;
+			border:1px solid red;
+			border-radius: 36px;
+			color: red;
+			text-align: center;
+			line-height: 36px;
+			text-decoration: none;
+			position: relative;
+			bottom: 35px;
+			right: 10px;
+		}
+
+		/*c-d-b-1-2*/
+		#other #m .count-down-box .c-d-b-1-2 .a1{
+			display: inline-block;
+			width:124px;
+			height:21px;
+			font-size: 16px;
+			margin:11px 10px 6px 10px ;
+			font-weight: bold;
+			text-decoration: none;
+			color: black;
+		}
+		#other #m .count-down-box .c-d-b-1-2 .a2{
+			display: inline-block;
+			width:203px;
+			height:38px;
+			text-decoration: none;
+			/*display: inline;*/
+			overflow:hidden;
+			font-size:13px;
+			color:#999999;
+		}
+		#other #m .count-down-box .c-d-b-1-2 .a3{
+			display: inline-block;
+			width: 80px;
+			height: 36px;
+			border:1px solid red;
+			border-radius: 36px;
+			color: red;
+			text-align: center;
+			line-height: 36px;
+			text-decoration: none;
+			position: relative;
+			bottom: 35px;
+			right: 10px;
+		}
+
+
+		/*c-d-b-2-1*/
+		#other #m .count-down-box .c-d-b-2-1 .a1{
+			display: inline-block;
+			width:124px;
+			height:21px;
+			font-size: 16px;
+			margin:11px 10px 6px 10px ;
+			font-weight: bold;
+			text-decoration: none;
+			color: black;
+		}
+		#other #m .count-down-box .c-d-b-2-1 .a2{
+			display: inline-block;
+			width:203px;
+			height:38px;
+			text-decoration: none;
+			/*display: inline;*/
+			overflow:hidden;
+			font-size:13px;
+			color:#999999;
+		}
+		#other #m .count-down-box .c-d-b-2-1 .a3{
+			display: inline-block;
+			width: 80px;
+			height: 36px;
+			border:1px solid red;
+			border-radius: 36px;
+			color: red;
+			text-align: center;
+			line-height: 36px;
+			text-decoration: none;
+			position: relative;
+			bottom: 35px;
+			right: 10px;
+		}
+
+
+		/*c-d-b-2-2*/
+		#other #m .count-down-box .c-d-b-2-2 .a1{
+			display: inline-block;
+			width:124px;
+			height:21px;
+			font-size: 16px;
+			margin:11px 10px 6px 10px ;
+			font-weight: bold;
+			text-decoration: none;
+			color: black;
+		}
+		#other #m .count-down-box .c-d-b-2-2 .a2{
+			display: inline-block;
+			width:203px;
+			height:38px;
+			text-decoration: none;
+			/*display: inline;*/
+			overflow:hidden;
+			font-size:13px;
+			color:#999999;
+		}
+		#other #m .count-down-box .c-d-b-2-2 .a3{
+			display: inline-block;
+			width: 80px;
+			height: 36px;
+			border:1px solid red;
+			border-radius: 36px;
+			color: red;
+			text-align: center;
+			line-height: 36px;
+			text-decoration: none;
+			position: relative;
+			bottom: 35px;
+			right: 10px;
+		}
+
+		#other #m .count-down-box{
+			position: relative;
+		}
+		#other #m .count-down-box .flash-sale{
+			display: inline-block;
+			float: right;
+			position: absolute;
+			top: 0px;
+			right: -150px;
+		}
+
+
+
+		/*热门品牌部分*/
+		#other #m .hot-topic{
+			width: 1090px;
+			margin: 0 auto;
+			border-top: 1px solid #f0f0f0;
+			padding-top: 10px;
+		}
+		#other #m .hot-topic a{
+			float: right;
+			font-size: 13px;
+			text-decoration:none;
+			color: #999;
+		}
+
+
+		/*热门品牌盒子*/
+		#other #m .hot-topic-box{
+			width: 1090px;
+			height: 390px;
+			margin: 0 auto;
+			border-bottom: 1px solid #999;
+			/*background-color: blue;*/
+		}
+		#other #m .hot-topic-box ul{
+			display: inline-block;
+			background-color: white;
+		}
+		/*品牌盒子左侧*/
+		#other #m .hot-topic-box .h-t-b-left img{
+			width: 219px;
+			height: 219px;
+		}
+		#other #m .hot-topic-box .h-t-b-left .text{
+			width: 219px;
+			height: 136px;
+			color: white;
+			background-color: #424242;
+		}
+		#other #m .hot-topic-box .h-t-b-left .text .text-p1{
+			width: 195px;
+			margin: 0 12px;
+			font-size: 20px;
+			padding-top: 41px;
+			padding-bottom: 4px;
+			text-align: center;
+		}
+		#other #m .hot-topic-box .h-t-b-left .text .text-p2{
+			margin: 0 12px;
+			text-align: center;
+		}
+
+		/*品牌盒子右侧*/
+		#other #m .hot-topic-box .h-t-b-right li{
+			display: inline-block;
+			list-style-type: none;
+			width: 211px;
+			height: 176px;
+			border: 1px solid #ebebeb;
+
+		}
+		#other #m .hot-topic-box .h-t-b-right{
+			position: absolute;
+		}
+
+		/*美妆专区*/
+		#other #m .meizhuang{
+			width: 1090px;
+			height: 390px;
+			margin: 0 auto;
+			border-bottom: 1px solid #999;
+		}	
